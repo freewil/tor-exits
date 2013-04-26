@@ -1,11 +1,15 @@
 {
   "name": "tor-exits",
+  "description": "Deal with Tor exit nodes",
   "version": "0.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freewil/tor-exits.git"
+  },
   "author": "Sean Lavine <sean@eternalrise.com>",
   "license": "BSD",
   "dependencies": {
@@ -13,5 +17,13 @@
   },
   "devDependencies": {
     "mocha": "~1.9.0"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "13f954e1f20777cb772290a7dd57b3459c1beec3",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "tor"
+  ]
 }
