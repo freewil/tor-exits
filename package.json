@@ -1,0 +1,17 @@
+{
+  "name": "tor-exits",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "Sean Lavine <sean@eternalrise.com>",
+  "license": "BSD",
+  "dependencies": {
+    "request": "~2.20.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  }
+}
