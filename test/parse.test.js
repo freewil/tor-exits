@@ -6,9 +6,13 @@ describe('tor-exits', function() {
   describe('parse()', function() {
     
     it('should parse records', function() {
-      var data = fs.readFileSync(__dirname + '/exit-addresses', 'utf8');
+      var ipRegex = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/;
+      var data = fs.readFileSync(__dirname + '/torlist', 'utf8');
       var nodes = parse(data);
-      assert.equal(nodes.length, 25);
+      assert.equal(nodes.length, 100);
+      for (var i = 0; i < nodes.length; ++i) {
+        assert.ok(ipRegex.test(nodes[0]));
+      }
     });
     
   });
