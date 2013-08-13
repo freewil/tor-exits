@@ -7,7 +7,7 @@ describe('tor-exits', function() {
     
     it('should parse records', function() {
       var ipRegex = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/;
-      var data = fs.readFileSync(__dirname + '/torlist', 'utf8');
+      var data = fs.readFileSync(__dirname + '/Tor_ip_list_EXIT.csv', 'utf8');
       var nodes = parse(data);
       assert.equal(nodes.length, 100);
       for (var i = 0; i < nodes.length; ++i) {
