@@ -1,5 +1,8 @@
 # tor-exits
 
+## v0.0.5 (2013/11/11)
+* update SSL ca
+
 ## v0.0.4 (2013/08/12)
 * fetch(): check for error before checking response status code
 * switch torlist to torstatus.blutmagie.de
