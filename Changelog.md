@@ -1,5 +1,9 @@
 # tor-exits
 
+## v0.0.6 (2014/12/07)
+* don't embed SSL certificate - torstatus.blutmagie.de now uses a valid signed cert
+* update dependencies
+
 ## v0.0.5 (2013/11/11)
 * update SSL ca
 
