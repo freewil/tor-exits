@@ -13,10 +13,10 @@
   "author": "Sean Lavine <sean@eternalrise.com>",
   "license": "BSD",
   "dependencies": {
-    "request": "~2.20.0"
+    "request": "^2.49.0"
   },
   "devDependencies": {
-    "mocha": "~1.9.0"
+    "mocha": "^2.0.1"
   },
   "readmeFilename": "README.md",
   "gitHead": "13f954e1f20777cb772290a7dd57b3459c1beec3",
