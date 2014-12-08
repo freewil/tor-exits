@@ -1,6 +1,4 @@
-# tor-exits
-
-[![Build Status](https://travis-ci.org/freewil/tor-exits.png)](https://travis-ci.org/freewil/tor-exits)
+# tor-exits [![Build Status](https://travis-ci.org/freewil/tor-exits.svg)](https://travis-ci.org/freewil/tor-exits)
 
 ## Install
 
